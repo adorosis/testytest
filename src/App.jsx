@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div className="p-6">
       <BookmarkForm addBookmark={addBookmark} />
+      <h1>Testing</h1>
       <Search
         bookmarks={bookmarks}
         setFilteredBookmarks={setFilteredBookmarks}
